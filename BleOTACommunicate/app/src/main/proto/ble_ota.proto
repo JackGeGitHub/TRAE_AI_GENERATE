@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+option java_package = "com.example.bleotacommunicate.proto";
+option java_outer_classname = "BleOtaProto";
+
+message DFUCommand {
+  uint32 id = 1;
+  oneof command {
+    DFUStartCommand dfu_start = 2;
+    PageFinishCommand page_finish = 3;
+    DFUFinishCommand dfu_finish = 4;
+    ResetCommand reset = 5;
+  }
+}
+
+message DFUStartCommand {}
+
+message PageFinishCommand {}
+
+message DFUFinishCommand {
+  uint32 size = 1;
+  bytes sha256_sum = 2;
+}
+
+message ResetCommand {}
+
+message DFUChunk {
+  uint32 number = 1;
+  bytes data = 2;
+}
+
+enum DFUErrorCode {
+  SUCCESS = 0;
+  FAILURE = 1;
+}
+
+message DFUCommandResponse {
+  uint32 id = 1;
+  DFUErrorCode error_code = 2;
+  optional bytes chunk_bits = 3;
+}
