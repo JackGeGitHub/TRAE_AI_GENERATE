@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">USBCommunicate</string>
+    <string name="host_mode">HOST Mode</string>
+    <string name="slave_mode">SLAVE Mode</string>
+    <string name="connect_device">Connect Device</string>
+    <string name="send_control_command">Send Control Command</string>
+    <string name="send_bulk_command">Send Bulk Command</string>
+    <string name="clear_log">Clear Log</string>
+    <string name="baud_rate">Baud Rate: 115200</string>
+    <string name="data_bits">Data Bits: 8</string>
+</resources>
+

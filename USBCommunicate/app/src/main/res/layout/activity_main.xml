@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RadioGroup
+        android:id="@+id/radio_group_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/radio_host"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/host_mode"
+            android:checked="true"
+            android:layout_marginEnd="16dp" />
+
+        <RadioButton
+            android:id="@+id/radio_slave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/slave_mode" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: Not connected"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btn_connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/connect_device"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btn_send_control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send_control_command"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btn_send_bulk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send_bulk_command"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btn_clear_log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear_log"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Communication Log:"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#F5F5F5"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tv_log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textSize="12sp" />
+    </ScrollView>
+
+</LinearLayout>
+

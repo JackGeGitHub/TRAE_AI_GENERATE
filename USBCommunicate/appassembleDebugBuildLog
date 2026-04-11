@@ -1,0 +1,366 @@
+Initialized native services in: C:\Users\123\.gradle\native
+Initialized jansi services in: C:\Users\123\.gradle\native
+The client will now receive all logging from the daemon (pid: 36840). The daemon log file: C:\Users\123\.gradle\daemon\8.13\daemon-36840.out.log
+Starting 3rd build in daemon [uptime: 12 mins 4.014 secs, performance: 99%, GC rate: 0.00/s, heap usage: 1% of 2 GiB]
+Using 16 worker leases.
+Now considering [D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\settings.gradle'.
+Projects loaded. Root project using build file 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\build.gradle'.
+Included projects: [root project 'USBCommunicate', project ':app']
+
+> Configure project :
+Evaluating root project 'USBCommunicate' using build file 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\build.gradle'.
+
+> Configure project :app
+Evaluating project ':app' using build file 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build.gradle'.
+Resolved plugin [id: 'com.android.application']
+Using default execution profile
+All projects evaluated.
+Task path 'app:assembleDebug' matched project ':app'
+Task name matched 'assembleDebug'
+Selected primary task 'assembleDebug' from project :app
+Tasks to be executed: [task ':app:preBuild', task ':app:preDebugBuild', task ':app:mergeDebugNativeDebugMetadata', task ':app:javaPreCompileDebug', task ':app:checkDebugAarMetadata', task ':app:generateDebugResValues', task ':app:mapDebugSourceSetPaths', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:packageDebugResources', task ':app:parseDebugLocalResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':app:processDebugMainManifest', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':app:processDebugResources', task ':app:compileDebugJavaWithJavac', task ':app:mergeDebugShaders', task ':app:compileDebugShaders', task ':app:generateDebugAssets', task ':app:mergeDebugAssets', task ':app:compressDebugAssets', task ':app:processDebugJavaRes', task ':app:mergeDebugJavaResource', task ':app:checkDebugDuplicateClasses', task ':app:desugarDebugFileDependencies', task ':app:mergeExtDexDebug', task ':app:mergeLibDexDebug', task ':app:dexBuilderDebug', task ':app:mergeProjectDexDebug', task ':app:mergeDebugJniLibFolders', task ':app:mergeDebugNativeLibs', task ':app:stripDebugDebugSymbols', task ':app:validateSigningDebug', task ':app:writeDebugAppMetadata', task ':app:writeDebugSigningConfigVersions', task ':app:packageDebug', task ':app:createDebugApkListingFileRedirect', task ':app:assembleDebug']
+Tasks that were excluded: []
+Resolve mutations for :app:preBuild (Thread[#544,Execution worker,5,main]) started.
+:app:preBuild (Thread[#544,Execution worker,5,main]) started.
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+Resolve mutations for :app:preDebugBuild (Thread[#544,Execution worker,5,main]) started.
+:app:preDebugBuild (Thread[#544,Execution worker,5,main]) started.
+
+> Task :app:preDebugBuild UP-TO-DATE
+Skipping task ':app:preDebugBuild' as it has no actions.
+Resolve mutations for :app:mergeDebugNativeDebugMetadata (Thread[#544,Execution worker,5,main]) started.
+:app:mergeDebugNativeDebugMetadata (Thread[#544,Execution worker,5,main]) started.
+
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+Skipping task ':app:mergeDebugNativeDebugMetadata' as it has no source files and no previous output files.
+Resolve mutations for :app:javaPreCompileDebug (Thread[#544,Execution worker,5,main]) started.
+:app:javaPreCompileDebug (Thread[#544,Execution worker,5,main]) started.
+
+> Task :app:javaPreCompileDebug UP-TO-DATE
+Caching disabled for task ':app:javaPreCompileDebug' because:
+  Build cache is disabled
+Skipping task ':app:javaPreCompileDebug' as it is up-to-date.
+Resolve mutations for :app:checkDebugAarMetadata (Thread[#544,Execution worker,5,main]) started.
+:app:checkDebugAarMetadata (Thread[#544,Execution worker,5,main]) started.
+
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':app:checkDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+Resolve mutations for :app:generateDebugResValues (Thread[#544,Execution worker,5,main]) started.
+:app:generateDebugResValues (Thread[#544,Execution worker,5,main]) started.
+
+> Task :app:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':app:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :app:mapDebugSourceSetPaths (Thread[#544,Execution worker,5,main]) started.
+:app:mapDebugSourceSetPaths (Thread[#544,Execution worker,5,main]) started.
+
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+Resolve mutations for :app:generateDebugResources (Thread[#544,Execution worker,5,main]) started.
+:app:generateDebugResources (Thread[#544,Execution worker,5,main]) started.
+
+> Task :app:generateDebugResources UP-TO-DATE
+Caching disabled for task ':app:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResources' as it is up-to-date.
+Resolve mutations for :app:mergeDebugResources (Thread[#544,Execution worker,5,main]) started.
+:app:mergeDebugResources (Thread[#544,Execution worker,5,main]) started.
+
+> Task :app:mergeDebugResources UP-TO-DATE
+Caching disabled for task ':app:mergeDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugResources' as it is up-to-date.
+Resolve mutations for :app:packageDebugResources (Thread[#544,Execution worker,5,main]) started.
+:app:packageDebugResources (Thread[#544,Execution worker,5,main]) started.
+
+> Task :app:packageDebugResources UP-TO-DATE
+Caching disabled for task ':app:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:packageDebugResources' as it is up-to-date.
+Resolve mutations for :app:parseDebugLocalResources (Thread[#544,Execution worker,5,main]) started.
+:app:parseDebugLocalResources (Thread[#544,Execution worker,5,main]) started.
+
+> Task :app:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':app:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[#544,Execution worker,5,main]) started.
+:app:createDebugCompatibleScreenManifests (Thread[#544,Execution worker,5,main]) started.
+
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+Resolve mutations for :app:extractDeepLinksDebug (Thread[#544,Execution worker,5,main]) started.
+:app:extractDeepLinksDebug (Thread[#544,Execution worker,5,main]) started.
+
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':app:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+Resolve mutations for :app:processDebugMainManifest (Thread[#544,Execution worker,5,main]) started.
+:app:processDebugMainManifest (Thread[#544,Execution worker,5,main]) started.
+
+> Task :app:processDebugMainManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugMainManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugMainManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifest (Thread[#544,Execution worker,5,main]) started.
+:app:processDebugManifest (Thread[#544,Execution worker,5,main]) started.
+
+> Task :app:processDebugManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifestForPackage (Thread[#544,Execution worker,5,main]) started.
+:app:processDebugManifestForPackage (Thread[#544,Execution worker,5,main]) started.
+
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+Custom actions are attached to task ':app:processDebugManifestForPackage'.
+Caching disabled for task ':app:processDebugManifestForPackage' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifestForPackage' as it is up-to-date.
+Resolve mutations for :app:processDebugResources (Thread[#544,Execution worker,5,main]) started.
+:app:processDebugResources (Thread[#544,Execution worker,5,main]) started.
+
+> Task :app:processDebugResources UP-TO-DATE
+Caching disabled for task ':app:processDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:processDebugResources' as it is up-to-date.
+Resolve mutations for :app:compileDebugJavaWithJavac (Thread[#544,Execution worker,5,main]) started.
+:app:compileDebugJavaWithJavac (Thread[#544,Execution worker,5,main]) started.
+
+> Task :app:compileDebugJavaWithJavac
+Custom actions are attached to task ':app:compileDebugJavaWithJavac'.
+Caching disabled for task ':app:compileDebugJavaWithJavac' because:
+  Build cache is disabled
+Task ':app:compileDebugJavaWithJavac' is not up-to-date because:
+  Input property 'stableSources' file D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\src\main\java\com\usb\communicate\MainActivity.java has changed.
+Java compiler version 21 has deprecated support for compiling with source/target version 8.
+Try one of the following options:
+    1. [Recommended] Use Java toolchain with a lower language version
+    2. Set a higher source/target version
+    3. Use a lower version of the JDK running the build (if you're not using Java toolchain)
+For more details on how to configure these settings, see https://developer.android.com/build/jdks.
+To suppress this warning, set android.javaCompile.suppressSourceTargetDeprecationWarning=true in gradle.properties.
+Compilation mode: in-process compilation
+Created classpath snapshot for incremental compilation in 0.006 secs.
+file or directory 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\src\debug\java', not found
+Compiling with toolchain 'C:\Program Files\Android\Android Studio\jbr'.
+file or directory 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\src\debug\java', not found
+Compiling with JDK Java compiler API.
+警告: [options] 源值 8 已过时，将在未来发行版中删除
+警告: [options] 目标值 8 已过时，将在未来发行版中删除
+警告: [options] 要隐藏有关已过时选项的警告, 请使用 -Xlint:-options。
+注: D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\src\main\java\com\usb\communicate\MainActivity.java使用或覆盖了已过时的 API。
+注: 有关详细信息, 请使用 -Xlint:deprecation 重新编译。
+3 个警告
+Incremental compilation of 2 classes completed in 0.407 secs.
+Class dependency analysis for incremental compilation took 0.001 secs.
+Resolve mutations for :app:mergeDebugShaders (Thread[#544,Execution worker,5,main]) started.
+:app:mergeDebugShaders (Thread[#544,Execution worker,5,main]) started.
+
+> Task :app:mergeDebugShaders UP-TO-DATE
+Caching disabled for task ':app:mergeDebugShaders' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':app:mergeDebugShaders' as it is up-to-date.
+Resolve mutations for :app:compileDebugShaders (Thread[#544,Execution worker,5,main]) started.
+:app:compileDebugShaders (Thread[#544,Execution worker,5,main]) started.
+
+> Task :app:compileDebugShaders NO-SOURCE
+Skipping task ':app:compileDebugShaders' as it has no source files and no previous output files.
+Resolve mutations for :app:generateDebugAssets (Thread[#544,Execution worker,5,main]) started.
+:app:generateDebugAssets (Thread[#544,Execution worker,5,main]) started.
+
+> Task :app:generateDebugAssets UP-TO-DATE
+Skipping task ':app:generateDebugAssets' as it has no actions.
+Resolve mutations for :app:mergeDebugAssets (Thread[#544,Execution worker,5,main]) started.
+:app:mergeDebugAssets (Thread[#544,Execution worker,5,main]) started.
+
+> Task :app:mergeDebugAssets UP-TO-DATE
+Caching disabled for task ':app:mergeDebugAssets' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':app:mergeDebugAssets' as it is up-to-date.
+Resolve mutations for :app:compressDebugAssets (Thread[#544,Execution worker,5,main]) started.
+:app:compressDebugAssets (Thread[#544,Execution worker,5,main]) started.
+
+> Task :app:compressDebugAssets UP-TO-DATE
+Caching disabled for task ':app:compressDebugAssets' because:
+  Build cache is disabled
+Skipping task ':app:compressDebugAssets' as it is up-to-date.
+Resolve mutations for :app:processDebugJavaRes (Thread[#544,Execution worker,5,main]) started.
+:app:processDebugJavaRes (Thread[#544,Execution worker,5,main]) started.
+
+> Task :app:processDebugJavaRes NO-SOURCE
+file or directory 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\src\main\resources', not found
+file or directory 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\src\debug\resources', not found
+Skipping task ':app:processDebugJavaRes' as it has no source files and no previous output files.
+Resolve mutations for :app:mergeDebugJavaResource (Thread[#547,Execution worker Thread 4,5,main]) started.
+:app:mergeDebugJavaResource (Thread[#547,Execution worker Thread 4,5,main]) started.
+
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+Caching disabled for task ':app:mergeDebugJavaResource' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:mergeDebugJavaResource' as it is up-to-date.
+Resolve mutations for :app:checkDebugDuplicateClasses (Thread[#550,Execution worker Thread 7,5,main]) started.
+:app:checkDebugDuplicateClasses (Thread[#550,Execution worker Thread 7,5,main]) started.
+
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+Caching disabled for task ':app:checkDebugDuplicateClasses' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugDuplicateClasses' as it is up-to-date.
+Resolve mutations for :app:desugarDebugFileDependencies (Thread[#550,Execution worker Thread 7,5,main]) started.
+:app:desugarDebugFileDependencies (Thread[#550,Execution worker Thread 7,5,main]) started.
+
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+Caching disabled for task ':app:desugarDebugFileDependencies' because:
+  Build cache is disabled
+Skipping task ':app:desugarDebugFileDependencies' as it is up-to-date.
+Resolve mutations for :app:mergeExtDexDebug (Thread[#550,Execution worker Thread 7,5,main]) started.
+:app:mergeExtDexDebug (Thread[#550,Execution worker Thread 7,5,main]) started.
+
+> Task :app:mergeExtDexDebug UP-TO-DATE
+Caching disabled for task ':app:mergeExtDexDebug' because:
+  Build cache is disabled
+Skipping task ':app:mergeExtDexDebug' as it is up-to-date.
+Resolve mutations for :app:mergeLibDexDebug (Thread[#550,Execution worker Thread 7,5,main]) started.
+:app:mergeLibDexDebug (Thread[#550,Execution worker Thread 7,5,main]) started.
+
+> Task :app:mergeLibDexDebug UP-TO-DATE
+Caching disabled for task ':app:mergeLibDexDebug' because:
+  Build cache is disabled
+Skipping task ':app:mergeLibDexDebug' as it is up-to-date.
+Resolve mutations for :app:dexBuilderDebug (Thread[#550,Execution worker Thread 7,5,main]) started.
+:app:dexBuilderDebug (Thread[#550,Execution worker Thread 7,5,main]) started.
+
+> Task :app:dexBuilderDebug
+Caching disabled for task ':app:dexBuilderDebug' because:
+  Build cache is disabled
+Task ':app:dexBuilderDebug' is not up-to-date because:
+  Input property 'projectClasses' file D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes\com\usb\communicate\MainActivity.class has changed.
+Dex builder is incremental : true 
+Processing input D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes
+Dexing D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes
+Dexing 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes' to 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes' to 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes' to 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes' to 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes' to 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Processing input D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\processDebugResources\R.jar
+Dexing D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\processDebugResources\R.jar
+Dexing 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes' to 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes' to 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\processDebugResources\R.jar' to 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\163d5e4bc59f0b11842842e39ed96fe4af8dfdf24c9463b1b5019351678bb308_0.jar'
+Dexing 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes' to 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out'
+Dexing 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\processDebugResources\R.jar' to 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\163d5e4bc59f0b11842842e39ed96fe4af8dfdf24c9463b1b5019351678bb308_1.jar'
+Dexing 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\processDebugResources\R.jar' to 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\163d5e4bc59f0b11842842e39ed96fe4af8dfdf24c9463b1b5019351678bb308_2.jar'
+Dexing 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\processDebugResources\R.jar' to 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\163d5e4bc59f0b11842842e39ed96fe4af8dfdf24c9463b1b5019351678bb308_4.jar'
+Dexing 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\processDebugResources\R.jar' to 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\163d5e4bc59f0b11842842e39ed96fe4af8dfdf24c9463b1b5019351678bb308_5.jar'
+Dexing 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\processDebugResources\R.jar' to 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\163d5e4bc59f0b11842842e39ed96fe4af8dfdf24c9463b1b5019351678bb308_3.jar'
+Dexing 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\processDebugResources\R.jar' to 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\163d5e4bc59f0b11842842e39ed96fe4af8dfdf24c9463b1b5019351678bb308_6.jar'
+Dexing 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\processDebugResources\R.jar' to 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\163d5e4bc59f0b11842842e39ed96fe4af8dfdf24c9463b1b5019351678bb308_7.jar'
+Done with all dex archive conversions
+Resolve mutations for :app:mergeProjectDexDebug (Thread[#550,Execution worker Thread 7,5,main]) started.
+:app:mergeProjectDexDebug (Thread[#550,Execution worker Thread 7,5,main]) started.
+Resolve mutations for :app:mergeDebugJniLibFolders (Thread[#546,Execution worker Thread 3,5,main]) started.
+:app:mergeDebugJniLibFolders (Thread[#546,Execution worker Thread 3,5,main]) started.
+
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+Caching disabled for task ':app:mergeDebugJniLibFolders' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':app:mergeDebugJniLibFolders' as it is up-to-date.
+Resolve mutations for :app:mergeDebugNativeLibs (Thread[#546,Execution worker Thread 3,5,main]) started.
+:app:mergeDebugNativeLibs (Thread[#546,Execution worker Thread 3,5,main]) started.
+
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+Skipping task ':app:mergeDebugNativeLibs' as it has no source files and no previous output files.
+Resolve mutations for :app:stripDebugDebugSymbols (Thread[#546,Execution worker Thread 3,5,main]) started.
+:app:stripDebugDebugSymbols (Thread[#546,Execution worker Thread 3,5,main]) started.
+
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+Skipping task ':app:stripDebugDebugSymbols' as it has no source files and no previous output files.
+Resolve mutations for :app:validateSigningDebug (Thread[#546,Execution worker Thread 3,5,main]) started.
+:app:validateSigningDebug (Thread[#546,Execution worker Thread 3,5,main]) started.
+
+> Task :app:validateSigningDebug UP-TO-DATE
+Caching disabled for task ':app:validateSigningDebug' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:validateSigningDebug' as it is up-to-date.
+Resolve mutations for :app:writeDebugAppMetadata (Thread[#546,Execution worker Thread 3,5,main]) started.
+:app:writeDebugAppMetadata (Thread[#546,Execution worker Thread 3,5,main]) started.
+
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+Caching disabled for task ':app:writeDebugAppMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:writeDebugAppMetadata' as it is up-to-date.
+Resolve mutations for :app:writeDebugSigningConfigVersions (Thread[#546,Execution worker Thread 3,5,main]) started.
+:app:writeDebugSigningConfigVersions (Thread[#546,Execution worker Thread 3,5,main]) started.
+
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+Caching disabled for task ':app:writeDebugSigningConfigVersions' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:writeDebugSigningConfigVersions' as it is up-to-date.
+
+> Task :app:mergeProjectDexDebug
+Caching disabled for task ':app:mergeProjectDexDebug' because:
+  Build cache is disabled
+Task ':app:mergeProjectDexDebug' is not up-to-date because:
+  Input property 'dexDirs' file D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\com\usb\communicate\MainActivity.dex has changed.
+Merging to 'D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\dex\debug\mergeProjectDexDebug\15' with D8 from all or a subset of dex files in D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out, and from all global synthetics files in 
+Resolve mutations for :app:packageDebug (Thread[#550,Execution worker Thread 7,5,main]) started.
+:app:packageDebug (Thread[#550,Execution worker Thread 7,5,main]) started.
+
+> Task :app:packageDebug
+Custom actions are attached to task ':app:packageDebug'.
+Caching disabled for task ':app:packageDebug' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Task ':app:packageDebug' is not up-to-date because:
+  Input property 'dexFolders' file D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate\app\build\intermediates\dex\debug\mergeProjectDexDebug\15\classes.dex has changed.
+Resolve mutations for :app:createDebugApkListingFileRedirect (Thread[#550,Execution worker Thread 7,5,main]) started.
+:app:createDebugApkListingFileRedirect (Thread[#550,Execution worker Thread 7,5,main]) started.
+
+> Task :app:createDebugApkListingFileRedirect UP-TO-DATE
+Caching disabled for task ':app:createDebugApkListingFileRedirect' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:createDebugApkListingFileRedirect' as it is up-to-date.
+Resolve mutations for :app:assembleDebug (Thread[#550,Execution worker Thread 7,5,main]) started.
+:app:assembleDebug (Thread[#550,Execution worker Thread 7,5,main]) started.
+
+> Task :app:assembleDebug
+Skipping task ':app:assembleDebug' as it has no actions.
+
+[Incubating] Problems report is available at: file:///D:/Workspace/Android/Codes/TRAE_AI_GENERATE/USBCommunicate/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.13/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 1s
+31 actionable tasks: 4 executed, 27 up-to-date
+Watched directory hierarchies: [D:\Workspace\Android\Codes\TRAE_AI_GENERATE\USBCommunicate]
