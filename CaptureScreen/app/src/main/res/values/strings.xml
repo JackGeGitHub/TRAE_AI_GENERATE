@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">区域截屏</string>
+    <string name="btn_start_service">开启截屏服务</string>
+    <string name="btn_stop_service">关闭截屏服务</string>
+    <string name="permission_required">需要授权</string>
+    <string name="media_projection_permission_desc">请允许截屏权限</string>
+    <string name="overlay_permission_desc">请允许悬浮窗权限</string>
+    <string name="hint_drag_to_share">拖动图片到此处分享</string>
+    <string name="screenshot_failed">截屏失败，请检查权限或避开安全界面</string>
+    <string name="permission_not_granted">请开启必要权限以使用截屏功能</string>
+    <string name="storage_insufficient">存储空间不足，无法保存图片</string>
+    <string name="storage_permission_missing">存储权限未开启，图片无法保存</string>
+    <string name="screenshot_success">截屏成功</string>
+    <string name="close">关闭</string>
+    <string name="zoom_hint">双指缩放</string>
+</resources>
